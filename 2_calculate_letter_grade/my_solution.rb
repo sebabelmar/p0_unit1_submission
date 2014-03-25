@@ -30,45 +30,45 @@
 # 2. Initial Solution
 
 def get_grade(array)
-	result = 0
-	array.each {|x| result += x}
-	average = result / (array.length)
-	
-	case average
-      when 90..100
-      return "A"
-     when 80...90
-      return "B"
-     when 70...80
-      return  "C"
-     when 60...70
-      return  "D"
-     else
-      return  "F"
-   end
-	
+  result = 0
+  array.each {|x| result += x}
+  average = result / (array.length)
+
+  case average
+  when 90..100
+  return "A"
+  when 80...90
+  return "B"
+  when 70...80
+  return  "C"
+  when 60...70
+  return  "D"
+  else
+  return  "F"
+end
+
 end
 
 
 # 3. Refactored Solution
 
 def get_grade(array)
-	
-	average = array.inject{|memo, n| memo + n} / (array.length)
-	 
-	case average
-      when 90..100
-      "A"
-     when 80...90
-      "B"
-     when 70...80
-      "C"
-     when 60...70
-      "D"
-     else
-      "F"
-   end
-	
+
+  average = array.inject{|memo, n| memo + n} / (array.length)
+
+  case average
+  when 90..100
+  "A"
+  when 80...90
+  "B"
+  when 70...80
+  "C"
+  when 60...70
+  "D"
+  else
+  "F"
+end
+
 end
 
 
