@@ -50,7 +50,7 @@ def get_grade(array)
   return  "D"
   else
   return  "F"
-end
+  end
 
 end
 
@@ -72,7 +72,7 @@ def get_grade(array)
   "D"
   else
   "F"
-end
+  end
 
 end
 
