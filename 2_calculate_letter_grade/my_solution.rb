@@ -29,7 +29,7 @@
 
 # 2. Initial Solution
 
-def get_grade (array)
+def get_grade(array)
 	result = 0
 	array.each {|x| result += x}
 	average = result / (array.length)
@@ -52,9 +52,9 @@ end
 
 # 3. Refactored Solution
 
-def get_grade (array)
+def get_grade(array)
 	
-	average = array.inject(0){|memo, n| memo + n} / (array.length)
+	average = array.inject{|memo, n| memo + n} / (array.length)
 	 
 	case average
       when 90..100
