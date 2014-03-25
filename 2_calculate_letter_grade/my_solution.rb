@@ -77,13 +77,11 @@ end
 # I pair for the first time out of a GPS for this challenge. I worked with Jon Pabico.
 # We kind of Drive and Navigate back and forward. We didn’t follow a pattern 
 # but we did it very organically. 
-# Because of previous programs we wrote before, getting to pseudo code and 
-# code this one was pretty straightforward. We talk for a minute about it and 
+# Because of programs we wrote before, getting to pseudo code and 
+# code this one was pretty straightforward. We talk for few minutes about it and 
 # decide a strategy to implement and combine what we did before into this challenge.
 # Refactoring was the surprise here. We came out with a complete new way to 
 # calculate the average. Pairing was incredibly beneficial for me. I’m really glad I did it.
 # Actually it makes want to pair for as much challenges I can.
 # Writing Ruby, after HTML CSS and specially JS, feels more intuitive. Long way to go still 
 # but feeling more confident.
-
-
