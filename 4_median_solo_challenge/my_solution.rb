@@ -15,24 +15,13 @@
 
 # 2. Initial Solution
 def median (array)
-	
+
 	array.sort!
 	middle = array.length / 2
 	return ((array[middle - 1] + array[middle]) / 2.0) if array.length % 2 == 0
 	return array[middle] if array.length % 2 != 0
 
 end
-
-array_1 = [1, 2, 3, 4, 5, 5, 7]
-array_2 = [4, 4, 5, 5, 6, 6, 6, 7]
-array_3 = [7, 4, 3, 5, 6, 2, 6, 4]
-array_4 = ["apple", "cherry", "banana"]
-
-median(array_1)
-median(array_2)
-median(array_3)
-median(array_4)
-
 
 # 3. Refactored Solution
 
