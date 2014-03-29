@@ -31,17 +31,18 @@
 
 
 # 2. Initial Solution
-def total (array)
-	result = 0
-	array.each {|x| result += x}
-	return result
-end
 
-def sentence_maker (array)
-	array.each {|x| x.to_s}
-	array[0] = array[0].capitalize
-	return array.join(" ") << "."
-end
+# def total (array)
+# 	result = 0
+# 	array.each {|x| result += x}
+# 	return result
+# end
+
+# def sentence_maker (array)
+# 	array.each {|x| x.to_s}
+# 	array[0] = array[0].capitalize
+# 	return array.join(" ") << "."
+# end
 
 
 
