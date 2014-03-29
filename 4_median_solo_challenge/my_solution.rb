@@ -18,6 +18,7 @@ def median (array)
 
 	array.sort!
 	middle = array.length / 2
+	
 	return ((array[middle - 1] + array[middle]) / 2.0) if array.length % 2 == 0
 	return array[middle] if array.length % 2 != 0
 
