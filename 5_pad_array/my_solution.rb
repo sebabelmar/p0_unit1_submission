@@ -92,7 +92,7 @@ end
 # It was fun to dig on classes and create this methods, it makes me think about how Ruby might be built somewhere in
 # my computer. Or how actually programming languages look like inside.
 # I realize that there are multiples ways to create these methods. That's why on my refactored solution I just change 
-# Some variable name, I think any other modification will be covered on the next challenge.
+# some variable name, I think any other modification will be covered on the next challenge.
 # The most challenging part in this challenge for me was to pass some of the test on the spec because of the way I build
 # this method. I think is not the most efficient way but was fun to invent it anyways. 
 
