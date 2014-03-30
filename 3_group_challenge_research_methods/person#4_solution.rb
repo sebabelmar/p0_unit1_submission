@@ -19,10 +19,12 @@ def my_deletion_method(source, thing_to_delete)
 	
 	if source.class.to_s == "Array"
 	my_array_deletion_method(source, thing_to_delete)
+	p source
 	end
 
 	if source.class.to_s == "Hash"
 	my_hash_deletion_method(source, thing_to_delete)
+	p source
 	end
 
 	return source

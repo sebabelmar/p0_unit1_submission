@@ -25,3 +25,22 @@ describe 'mode' do
     mode(array_3).should eq ["banana", "cherry"]
   end
 end
+
+
+def mode (array)
+
+  elements = array.uniq.sort
+  elements_frequency = {}
+
+  elements.each do |x|
+    elements_frequency[x] = array.count(x)
+  end
+  
+  max = elements_frequency.values.max 
+  max_elements = elements_frequency.select {|k, v| v == max}
+
+  result = []
+  max_elements.each {|k, v| result << k} 
+  return result
+
+end
