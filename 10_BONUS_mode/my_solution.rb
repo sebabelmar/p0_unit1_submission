@@ -54,11 +54,7 @@ def mode (array)
 
   elements.each {|x| elements_frequency[x] = array.count(x)}
  
-  max_elements = elements_frequency.select {|k, v| v == elements_frequency.values.max}
-
-  result = []
-  max_elements.each {|k, v| result << k} 
-  return result
+  elements_frequency.select {|k, v| v == elements_frequency.values.max}.keys
 
 end
 
