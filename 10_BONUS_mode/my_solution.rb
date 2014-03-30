@@ -71,7 +71,9 @@ end
 # It really challenged me to refactor this method, because naming the variables 
 # and write the code in a way that can be easily understand seems a little 
 # complicated to the way I build it. I’m going to read other people code, I’m really
-# curios about how they solve this one.
+# curios about how they solve this one. I refactored how to come with an array with keys
+# because I tried to do it before but using inject is something that I need to practice.
+
 
 
 
