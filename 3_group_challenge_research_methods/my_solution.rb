@@ -19,6 +19,7 @@ end
 # I used Hash#select which is same as Array#select but takes both key value pairs as block parameters
 # I used Hash#keys method which returns list of keys of corresponding hash in an Array
 
+# Person 2 solution
 def my_hash_modification_method(source, things_to_modify)
   source.each {|k, v| source[k] = v + things_to_modify}
 end
@@ -40,7 +41,6 @@ end
 #
 #
 
-
 # Person 3
   def my_array_sorting_method(source)
     source.map {|array_Element| array_Element.to_s}.sort.uniq
@@ -61,7 +61,6 @@ end
 
 # 3) I used .uniq which removes duplicate elements in the returned array
 # 4) I used .sort_by which sorts a hash using a set of keys and values
-
 
 # Person 4
 
