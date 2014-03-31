@@ -95,14 +95,3 @@ end
 # some variable name, I think any other modification will be covered on the next challenge.
 # The most challenging part in this challenge for me was to pass some of the test on the spec because of the way I build
 # this method. I think is not the most efficient way but was fun to invent it anyways. 
-
-
-
-
-
-
-
-
-
-
-
